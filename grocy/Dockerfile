@@ -3,7 +3,7 @@ ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:11.0.1
 FROM ${BUILD_FROM}
 
 # Set shell
-# SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
 # hadolint ignore=DL3003
