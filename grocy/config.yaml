@@ -6,7 +6,7 @@ arch:
 - i386
 description: ERP beyond your fridge! A groceries & household management solution for
   your home
-image: https://github.com/Will711990/grocy/{arch}
+image: ghcr.io/hassio-addons/grocy/{arch}
 ingress: true
 ingress_stream: true
 map:
