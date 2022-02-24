@@ -26,6 +26,7 @@ RUN \
         php8-simplexml=8.0.14-r0 \
         php8-tokenizer=8.0.14-r0 \
         php8=8.0.14-r0 \
+        nano \
     \
     && ln -s /usr/bin/php8 /usr/bin/php \
     \
