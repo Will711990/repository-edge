@@ -14,8 +14,8 @@ map:
 name: Grocy
 options:
   certfile: fullchain.pem
-  culture: en
-  currency: USD
+  culture: fr
+  currency: EUR
   entry_page: stock
   features:
     batteries: true
@@ -72,5 +72,5 @@ schema:
     stock_product_freezing: bool
     stock_product_opened_tracking: bool
 slug: grocy
-url: https://github.com/hassio-addons/addon-grocy
+url: https://github.com/Will711990/addon-grocy
 version: 2f4324f
